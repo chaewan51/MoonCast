@@ -150,7 +150,11 @@ class Model(object):
             # print(generation_config)
             # todo: add streaming support for generate function
             outputs = self.model.generate(prompt,
-                                          generation_config=generation_config)
+                                          generation_config=generation_config,
+                                          use_cache=False,
+                                          pad_token_id=self.tokenizer.eos_token_id,
+                                          attention_mask=None
+                                          )
             if outputs[0, -1] == self.media_end:
                 outputs = outputs[:, :-1]
             output_token = outputs[:, len_prompt:]
@@ -235,7 +239,11 @@ class Model(object):
             # print(generation_config)
             # todo: add streaming support for generate function
             outputs = self.model.generate(prompt,
-                                          generation_config=generation_config)
+                                          generation_config=generation_config,
+                                          use_cache=False,
+                                          pad_token_id=self.tokenizer.eos_token_id,
+                                          attention_mask=None
+                                          )
             if outputs[0, -1] == self.media_end:
                 outputs = outputs[:, :-1]
             output_token = outputs[:, len_prompt:]
@@ -287,7 +295,11 @@ class Model(object):
             generation_config.min_length = len_prompt + 2
             # todo: add streaming support for generate function
             outputs = self.model.generate(prompt,
-                                          generation_config=generation_config)
+                                          generation_config=generation_config,
+                                          use_cache=False,
+                                          pad_token_id=self.tokenizer.eos_token_id,
+                                          attention_mask=None
+                                          )
             if outputs[0, -1] == self.media_end:
                 outputs = outputs[:, :-1]
             output_token = outputs[:, len_prompt:]
@@ -345,7 +357,11 @@ class Model(object):
             # print(generation_config)
             # todo: add streaming support for generate function
             outputs = self.model.generate(prompt,
-                                          generation_config=generation_config)
+                                          generation_config=generation_config,
+                                          use_cache=False,
+                                          pad_token_id=self.tokenizer.eos_token_id,
+                                          attention_mask=None
+                                          )
             if outputs[0, -1] == self.media_end:
                 outputs = outputs[:, :-1]
             output_token = outputs[:, len_prompt:]
