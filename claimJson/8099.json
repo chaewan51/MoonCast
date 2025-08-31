@@ -1,0 +1,22 @@
+[
+    {
+        "role": "0",
+        "text": "These budget cuts are killing the economy. Absolutely killing it."
+    },
+    {
+        "role": "1",
+        "text": "I think that's a bit of an overstatement."
+    },
+    {
+        "role": "0",
+        "text": "Is it? Harry Reid just said that the sequester has already cost us one point six million jobs. That's one point six million people out of work because of these stupid cuts."
+    },
+    {
+        "role": "1",
+        "text": "That number can't be right. That's a massive job loss. The C B O and other economists predicted some job losses, but nowhere near that high. He must be using some very creative math."
+    },
+    {
+        "role": "0",
+        "text": "He's the Senate Democratic Leader. I think he knows what he's talking about. You just don't want to believe it."
+    }
+]

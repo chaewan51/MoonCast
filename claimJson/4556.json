@@ -1,0 +1,22 @@
+[
+    {
+        "role": "0",
+        "text": "Hey, you're a lawyer, I have a question."
+    },
+    {
+        "role": "1",
+        "text": "I'm a lawyer, not a walking legal encyclopedia, but shoot."
+    },
+    {
+        "role": "0",
+        "text": "Okay, so I saw this interview with Brian Newberry, the guy running for office, and he said something that sounded weird. He claimed that, legally speaking, it doesn't make any difference what state district you live in when you're running for Congress."
+    },
+    {
+        "role": "1",
+        "text": "Wait, for Congress? Are you sure? I was pretty certain you had to live in the district you want to represent. Isn't that, like, the whole point of a representative?"
+    },
+    {
+        "role": "0",
+        "text": "I thought so too. But he said it makes no difference. Maybe it's a state law thing?"
+    }
+]

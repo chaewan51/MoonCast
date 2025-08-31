@@ -1,0 +1,26 @@
+[
+    {
+        "role": "0",
+        "text": "Tom McClintock was saying in a speech that three presidents, Harding, Kennedy, and Reagan, all cut taxes during recessions and got rapid and dramatic economic recoveries."
+    },
+    {
+        "role": "0",
+        "text": "Meanwhile, Hoover and Obama did the opposite and things got worse."
+    },
+    {
+        "role": "1",
+        "text": "That's a pretty bold claim about economic history. While tax cuts can stimulate, to say they produced rapid and dramatic recoveries every time, and that the opposite was always detrimental... I mean, economic factors are so complex, you can't just isolate one variable like taxes."
+    },
+    {
+        "role": "0",
+        "text": "But think about it, he's linking it directly to the federal budget and the economy. If these presidents cut taxes during recessions and saw quick turnarounds, doesn't that suggest a clear path?"
+    },
+    {
+        "role": "0",
+        "text": "And the implication that Hoover and Obama, by doing the opposite, made things worse... it's a powerful argument for fiscal policy."
+    },
+    {
+        "role": "1",
+        "text": "I'm just not sure it's so direct. There are so many variables in play during a recession, global markets, consumer confidence, technological shifts... It's difficult to attribute recovery or lack thereof solely to tax policy without considering the broader historical context."
+    }
+]
